@@ -14,15 +14,15 @@ This project analyzes customer shopping behavior to uncover insights related to 
 
 Retail management wants to better understand customer purchasing patterns to improve revenue and customer loyalty. Key business questions include:
 
-Which customer groups generate the most revenue?
+- Which customer groups generate the most revenue?
 
-Do discounts significantly influence purchasing behavior?
+- Do discounts significantly influence purchasing behavior?
 
-Which products receive the highest ratings?
+- Which products receive the highest ratings?
 
-Are subscription users spending more than non-subscribers?
+- Are subscription users spending more than non-subscribers?
 
-Which demographics contribute the most to total revenue?
+- Which demographics contribute the most to total revenue?
 
 By analyzing these factors, the company can design targeted marketing strategies and improve product positioning.
 
@@ -38,43 +38,43 @@ Total Columns: 18
 
 ### Key Features
 
-#### Customer Demographics
+- Customer Demographics
 
-Age
+  - Age
 
-Gender
+  - Gender
 
-Location
+  - Location
 
-Subscription Status
+  - Subscription Status
 
-#### Purchase Information
+- Purchase Information
 
-Item Purchased
+  - Item Purchased
 
-Category
+  - Category
 
-Purchase Amount
+  - Purchase Amount
 
-Season
+  - Season
 
-Size
+  - Size
 
-Color
+  - Color
 
-#### Shopping Behavior
+- Shopping Behavior
 
-Discount Applied
+  - Discount Applied
 
-Promo Code Used
+  - Promo Code Used
 
-Previous Purchases
+  - Previous Purchases
 
-Purchase Frequency
+  - Purchase Frequency
 
-Review Rating
+  - Review Rating
 
-Shipping Type
+  - Shipping Type
 
 Some missing values were identified in the Review Rating column and handled during data cleaning.
 
@@ -90,63 +90,63 @@ Power BI: Data visualization and dashboard creation
 ## Methods
 1. Data Cleaning (Python)
 
-     Loaded dataset using Pandas
+     - Loaded dataset using Pandas
 
-     Checked structure using .info() and .describe()
+     - Checked structure using .info() and .describe()
 
-     Handled missing values in Review Rating
+     - Handled missing values in Review Rating
 
-     Standardized column names
+     - Standardized column names
 
-     Performed feature engineering:
+     - Performed feature engineering:
 
-     Created age_group
+     - Created age_group
 
-     Generated purchase_frequency_days
+     - Generated purchase_frequency_days
 
 2. Data Integration
 
-     Connected Python with PostgreSQL
+     - Connected Python with PostgreSQL
 
-     Loaded cleaned dataset into database
+     - Loaded cleaned dataset into database
 
 3. SQL Analysis
 
-     Performed business-driven analysis such as:
+     -  Performed business-driven analysis such as:
 
-     Revenue by gender
+     - Revenue by gender
 
-     High-spending discount users
+     - High-spending discount users
 
-     Top-rated products
+     - Top-rated products
  
-     Shipping type spending comparison
+     - Shipping type spending comparison
 
-     Subscribers vs non-subscribers revenue
+     - Subscribers vs non-subscribers revenue
 
-     Customer segmentation
+     - Customer segmentation
 
-     Repeat buyer analysis
+     - Repeat buyer analysis
 
-     Revenue by age group
+     - Revenue by age group
 
 4. Data Visualization
  
-     Built an interactive Power BI dashboard to present insights clearly and support decision-making.
+     - Built an interactive Power BI dashboard to present insights clearly and support decision-making.
 
 ## Key Insights
 
-Certain age groups contribute significantly to total revenue
+- Certain age groups contribute significantly to total revenue
 
-Subscribers tend to spend more than non-subscribers
+- Subscribers tend to spend more than non-subscribers
 
-Some products rely heavily on discounts to drive purchases
+- Some products rely heavily on discounts to drive purchases
 
-Top-rated products are strong candidates for marketing campaigns
+- Top-rated products are strong candidates for marketing campaigns
 
-Express shipping users tend to have higher purchase amounts
+- Express shipping users tend to have higher purchase amounts
 
-Repeat buyers are more likely to become loyal customers
+- Repeat buyers are more likely to become loyal customers
 
 ## How to Run This Project
 1. Clone Repository
@@ -171,24 +171,24 @@ By combining Python for data preparation, SQL for analytical queries, and Power 
 
 The findings help businesses:
 
-Optimize marketing strategies
+- Optimize marketing strategies
 
-Improve customer retention
+- Improve customer retention
 
-Promote high-performing products
+- Promote high-performing products
 
-Enhance subscription programs
+- Enhance subscription programs
 
 ## Future Work
 
-Possible improvements for this project include:
+- Possible improvements for this project include:
 
-Building predictive models for customer purchase prediction
+- Building predictive models for customer purchase prediction
 
-Implementing customer churn analysis
+- Implementing customer churn analysis
 
-Creating customer lifetime value (CLV) models
+- Creating customer lifetime value (CLV) models
 
-Deploying the dashboard as a real-time analytics tool
+- Deploying the dashboard as a real-time analytics tool
 
-Adding machine learning-based customer segmentation
+- Adding machine learning-based customer segmentation
