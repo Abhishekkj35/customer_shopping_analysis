@@ -78,58 +78,61 @@ Shipping Type
 
 Some missing values were identified in the Review Rating column and handled during data cleaning.
 
-##Tools and Technologies
+## Tools and Technologies
 Python: Data cleaning, preprocessing, and feature engineering
+
 Pandas: Data manipulation and analysis
+
 PostgreSQL: SQL-based data analysis
+
 Power BI: Data visualization and dashboard creation
 
 ## Methods
 1. Data Cleaning (Python)
 
-Loaded dataset using Pandas
+     Loaded dataset using Pandas
 
-Checked structure using .info() and .describe()
+     Checked structure using .info() and .describe()
 
-Handled missing values in Review Rating
+     Handled missing values in Review Rating
 
-Standardized column names
+     Standardized column names
 
-Performed feature engineering:
+     Performed feature engineering:
 
-Created age_group
+     Created age_group
 
-Generated purchase_frequency_days
+     Generated purchase_frequency_days
 
 2. Data Integration
 
-Connected Python with PostgreSQL
+     Connected Python with PostgreSQL
 
-Loaded cleaned dataset into database
+     Loaded cleaned dataset into database
 
 3. SQL Analysis
 
-Performed business-driven analysis such as:
+     Performed business-driven analysis such as:
 
-Revenue by gender
+     Revenue by gender
 
-High-spending discount users
+     High-spending discount users
 
-Top-rated products
+     Top-rated products
+ 
+     Shipping type spending comparison
 
-Shipping type spending comparison
+     Subscribers vs non-subscribers revenue
 
-Subscribers vs non-subscribers revenue
+     Customer segmentation
 
-Customer segmentation
+     Repeat buyer analysis
 
-Repeat buyer analysis
-
-Revenue by age group
+     Revenue by age group
 
 4. Data Visualization
-
-Built an interactive Power BI dashboard to present insights clearly and support decision-making.
+ 
+     Built an interactive Power BI dashboard to present insights clearly and support decision-making.
 
 ## Key Insights
 
@@ -147,7 +150,7 @@ Repeat buyers are more likely to become loyal customers
 
 ## How to Run This Project
 1. Clone Repository
-git clone https://github.com/ab/customer_shopping_analysis.git
+https://github.com/Abhishekkj35/customer_shopping_analysis.git
 2. Install Required Libraries
 pip install pandas numpy psycopg2
 3. Run Python Data Cleaning Script
@@ -176,7 +179,7 @@ Promote high-performing products
 
 Enhance subscription programs
 
-##Future Work
+## Future Work
 
 Possible improvements for this project include:
 
